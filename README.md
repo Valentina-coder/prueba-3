@@ -1,0 +1,1 @@
+CREATE TABLE `club_deportivo`.`socio` (`rut` INT NOT NULL AUTO_INCREMENT , `nombre` VARCHAR(30) NOT NULL , `fecha_nacim` DATE NOT NULL , `direccion` VARCHAR(60) NOT NULL , `membresia` BOOLEAN NOT NULL , PRIMARY KEY (`rut`)) ENGINE = InnoDB;
